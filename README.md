@@ -34,8 +34,6 @@ sh run_yolo.sh
 
 ### Results of different Methods
 
-# Performance Comparison of Different Backbones and Pretraining Methods
-
 | Backbone       | Detector | Pretrain Method | Pretrain Dataset | mAP@0.5 | mAP@0.5:0.95 | Pretrain Weight | Config |
 |----------------|----------|-----------------|------------------|---------|--------------|-----------------|--------|
 | CSPDarket      | YOLO     | cls  | ImageNet         | 71.6    | 33.5         | -               |  -  |
@@ -51,7 +49,7 @@ sh run_yolo.sh
 | Swin-Base      | YOLO     | [AGBP](https://github.com/clovermini/AGSSP/blob/main/configs/pretrain_agbp/swin/swin-base_1xb256_metal_distill_multi.py)            | Industrial       | 76.8    | 39.0         | -               | - |
 | Swin-Base      | YOLO     | [AGSSP](https://github.com/clovermini/AGSSP/blob/main/configs/pretrain_agdp/yolov8_s_swinb_1xb32-10e_pretrain_frozen_cls.py)           | Industrial       | 77.7    | 45.0         | [baiduyun](https://pan.baidu.com/s/1nbRCRermuVofwpX9OdkWTA?pwd=w45v) / [google](https://drive.google.com/file/d/1dSRW03lLlbIL7Kz1i_9juMY9kUTPsMhX/view?usp=sharing) | [config](https://github.com/clovermini/AGSSP/blob/main/configs/yolo/yolov8_s_swinb_1xb32-500e_casting_billet_mini_agssd_cls.py) |
 | Swin-Base      | YOLO     | SimMIM | ImageNet        | 78.3    | 44.3         | -               | - |
-| Swin-Base      | YOLO     | [simmim](https://github.com/clovermini/AGSSP/blob/main/configs/pretrain_agbp/simmim/simmim_swin-base-w6_1xb256-amp-coslr-500e_in1k-192px_metal.py)   | Industrial       | 76.5    | 41.5         | -               | - |
+| Swin-Base      | YOLO     | [SimMIM](https://github.com/clovermini/AGSSP/blob/main/configs/pretrain_agbp/simmim/simmim_swin-base-w6_1xb256-amp-coslr-500e_in1k-192px_metal.py)   | Industrial       | 76.5    | 41.5         | -               | - |
 | Swin-Base      | YOLO     | [AGBP](https://github.com/clovermini/AGSSP/blob/main/configs/pretrain_agbp/simmim/simmim_swin-base-w6_1xb256-amp-coslr-500e_in1k-192px_metal_distill_multi.py)            | Industrial       | 79.8    | 44.3         | -               | - |
 | Swin-Base      | YOLO     | [AGSSP](https://github.com/clovermini/AGSSP/blob/main/configs/pretrain_agdp/yolov8_s_swinb_1xb32-10e_pretrain_frozen.py)           | Industrial       | 78.8    | 48.4         | [baiduyun](https://pan.baidu.com/s/1PBOnVVWiictCoz-BASfyKw?pwd=r6ji) / [google](https://drive.google.com/file/d/1UkH182LFlt07-Ux8Y-Jfk4_1NU7DySH5/view?usp=sharing) | [config](https://github.com/clovermini/AGSSP/blob/main/configs/yolo/yolov8_s_swinb_1xb32-500e_casting_billet_mini_agssd.py) |
 | Swin-Base      | Faster R-CNN | SimMIM | ImageNet      | 64.6    | 31.7         | -               | [config](https://github.com/clovermini/AGSSP/blob/main/configs/faster_rcnn/faster-rcnn_swinb_fpn_1x_casting.py) |
@@ -61,6 +59,8 @@ sh run_yolo.sh
 | Swin-Base      | DINO      | AGBP           | Industrial       | 79.2    | 49.5         | -               | [config](https://github.com/clovermini/AGSSP/blob/main/configs/dino/dino-4scale_swin-b_1xb8-12e_casting_agbp.py) |
 | Swin-Base      | DINO      | [AGSSP](https://github.com/clovermini/AGSSP/blob/main/configs/pretrain_agdp/dino-4scale_swinb_1xb32-10e_pretrain_frozen.py)          | Industrial       | 79.0    | 50.4         | [baidyun](https://pan.baidu.com/s/1c81dxqqlgvTpSZfdhWYAsg?pwd=c89d) / [google](https://drive.google.com/file/d/1zDRs37IAV7jXiiu5DyThOfgQtefK2mOz/view?usp=sharing) | [config](https://github.com/clovermini/AGSSP/blob/main/configs/dino/dino-4scale_swin-b_1xb8-12e_casting_agssp.py) |
 
+## Performance Comparison of Different Backbones and Pretraining Methods
+![](./images/results.png)
 
 ## Citation
 If you find our work is useful in your research or applications, please consider giving us a star 🌟 and citing it.
