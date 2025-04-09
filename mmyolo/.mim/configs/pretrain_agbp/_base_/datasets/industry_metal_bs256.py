@@ -1,0 +1,73 @@
+# dataset settings
+dataset_type = 'CustomDataset'
+data_root = '/datasets/'  # default
+class_name = ('steel_pipe', 'BSD_cls', 'DAGM2007_Class10', 'neu_rail', 'aluminum', 'steel_rail', 'moderately_thick_plates', 'DAGM2007_Class9', 'wood', 'Marbled', 'Mesh', 'cold_rolled_strip_steel', 'severstal_steel', 
+                'hot_rolled_strip_annealing_picking', 'Perforated', 'DAGM2007_Class7', 'Stratified', 'AITEX', 'Blotchy', 'BTech_02', 'bao_steel', 'Matted', 'KolektorSDD', 'BSData', 'medium_heavy_plate', 
+                'aluminum_strip', 'DAGM2007_Class1', 'DAGM2007_Class6', 'leather', 'aluminum_ingot', 'neu_leather', 'DAGM2007_Class3', 'tianchi_aluminum', 'neu_aluminum', 'wide_thick_plate', 'gc10_steel_plate', 'Woven_127', 
+                'rail_surface', 'neu_tile', 'Magnetic_tile', 'metal_plate', 'DAGM2007_Class4', 'Woven_068', 'grid', 'KolektorSDD2', 'Woven_104', 'road_crack', 'Woven_001', 'DAGM2007_Class8', 'neu_hot_rolled_strip', 
+                'hot_rolled_strip_steel', 'neu_magnetic_tiles', 'Fibrous', 'neu_steel', 'DAGM2007_Class5', 'Woven_125', 'DAGM2007_Class2', 'ssgd_glasses', 'wukuang_medium_plate', 'nan_steel', 'tile')  # 61  extra 'good', 'defect'
+
+num_classes = len(class_name)
+metainfo = dict(classes=class_name, palette='random')  
+
+mean = [110.2955, 113.433, 109.914]
+std = [32.028, 30.614, 30.27]
+batch_size = 256
+num_workers = 4
+
+data_preprocessor = dict(
+    num_classes=num_classes,
+    # RGB format normalization parameters
+    mean=mean,
+    std=std,
+    # convert image from BGR to RGB
+    to_rgb=True,
+)
+
+train_pipeline = [
+    dict(type='LoadImageFromFile'),
+    dict(type='RandomResizedCrop', scale=224),
+    dict(type='RandomFlip', prob=0.5, direction='horizontal'),
+    dict(type='PackInputs'),
+]
+
+test_pipeline = [
+    dict(type='LoadImageFromFile'),
+    dict(type='ResizeEdge', scale=256, edge='short'),
+    dict(type='CenterCrop', crop_size=224),
+    dict(type='PackInputs'),
+]
+
+train_dataloader = dict(
+    batch_size=batch_size,
+    num_workers=num_workers,
+    dataset=dict(
+        type=dataset_type,
+        metainfo=metainfo,
+        data_root=data_root,
+        ann_file='collection_of_images/metal_images_for_pretrain_train.txt',
+        data_prefix='',
+        with_label=True,
+        pipeline=train_pipeline),
+    sampler=dict(type='DefaultSampler', shuffle=True),
+)
+
+val_dataloader = dict(
+    batch_size=batch_size,
+    num_workers=num_workers,
+    dataset=dict(
+        type=dataset_type,
+        metainfo=metainfo,
+        data_root=data_root,
+        ann_file='collection_of_images/metal_images_for_pretrain_val.txt',
+        data_prefix='',
+        with_label=True,
+        test_mode=True,
+        pipeline=test_pipeline),
+    sampler=dict(type='DefaultSampler', shuffle=False),
+)
+val_evaluator = dict(type='Accuracy', topk=(1, 5))
+
+# If you want standard test, please manually configure the test dataset
+test_dataloader = val_dataloader
+test_evaluator = val_evaluator
