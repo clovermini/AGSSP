@@ -16,5 +16,25 @@ Casting Billet and Steel Pipe datasets can be downloaded from https://github.com
 pip3 install -r requirements.txt
 ```
 
+## Pre-training and Fine-tuning Instructions
+### Pre-training
+```bash
+# Change the corresponding configuration in configs
+sh run_pretrain.sh
+
+# multi gpu
+sh dist_run_pretrain.sh
+```
+
+### Fine-tuning
+```bash
+# Change the corresponding configuration in configs
+sh run_yolo.sh
+```
+
+### Results of different Methods
+
+
+
 ## Citation
 If you find our work is useful in your research or applications, please consider giving us a star 🌟 and citing it.
