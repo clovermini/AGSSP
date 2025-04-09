@@ -3,7 +3,7 @@ Official PyTorch Implementation of [Advancing Metallic Surface Defect Detection 
 
 Pretrained models are commonly employed to improve finetuning performance in metallic surface defect detection, especially in data-scarce environments. However, models pretrained on ImageNet often underperform due to data distribution gaps and misaligned training objectives. To address this, we propose a novel method called Anomaly-Guided Self-Supervised Pretraining (AGSSP), which pretrains on a large industrial dataset containing 120,000 images. AGSSP adopts a two-stage framework: (1) anomaly map guided backbone pretraining, which integrates domain-specific knowledge into feature learning through anomaly maps, and (2) anomaly box guided detector pretraining, where pseudo-defect boxes derived from anomaly maps act as targets to guide detector training. Anomaly maps are generated using a knowledge enhanced anomaly detection method. Additionally, we present two small-scale, pixel-level labeled metallic surface defect datasets for validation. Extensive experiments demonstrate that AGSSP consistently enhances performance across various settings, achieving up to a 10\% improvement in mAP@0.5 and 11.4% in mAP@0.5:0.95 compared to ImageNet-based models.
 
-![](./images/main.png)
+![](images/main.png)
 
 
 ## Data Download
@@ -60,7 +60,7 @@ sh run_yolo.sh
 | Swin-Base      | DINO      | [AGSSP](https://github.com/clovermini/AGSSP/blob/main/configs/pretrain_agdp/dino-4scale_swinb_1xb32-10e_pretrain_frozen.py)          | Industrial       | 79.0    | 50.4         | [baidyun](https://pan.baidu.com/s/1c81dxqqlgvTpSZfdhWYAsg?pwd=c89d) / [google](https://drive.google.com/file/d/1zDRs37IAV7jXiiu5DyThOfgQtefK2mOz/view?usp=sharing) | [config](https://github.com/clovermini/AGSSP/blob/main/configs/dino/dino-4scale_swin-b_1xb8-12e_casting_agssp.py) |
 
 ## Performance Comparison of Different Backbones and Pretraining Methods
-![](./images/results.png)
+![](images/results.png)
 
 ## Citation
 If you find our work is useful in your research or applications, please consider giving us a star 🌟 and citing it.
