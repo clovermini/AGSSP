@@ -34,7 +34,7 @@ sh run_yolo.sh
 
 ### Results of different Methods
 
-| Backbone       | Detector | Pretrain Method | Pretrain Dataset | mAP@0.5 | mAP@0.5:0.95 | Pretrain Weight | Config |
+| Backbone       | Detector | Pretrain Method | Pretrain Dataset | mAP@0.5 | mAP@0.5:0.95 | Pretrain Weight | Finetune Config |
 |----------------|----------|-----------------|------------------|---------|--------------|-----------------|--------|
 | CSPDarket      | YOLO     | cls  | ImageNet         | 71.6    | 33.5         | -               |  -  |
 | CSPDarket      | YOLO     | [cls](https://github.com/clovermini/AGSSP/blob/main/configs/pretrain_agbp/yolov8s/yolov8s_1xb256_metal.py)      | Industrial       | 72.8    | 34.7         | -               | - |
