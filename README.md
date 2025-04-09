@@ -8,8 +8,13 @@ Pretrained models are commonly employed to improve finetuning performance in met
 
 ## Data Download
 
-Casting Billet and Steel Pipe can be downloaded from https://github.com/clovermini/MVIT_metal_datasets.
+Casting Billet and Steel Pipe datasets can be downloaded from https://github.com/clovermini/MVIT_metal_datasets.
 
+## Environments
+```bash
+# Our code is based on mmyolo=0.6.0, mmpretrain=1.2.0, mmdet=3.3.0, mmseg=1.2.2.
+pip3 install -r requirements.txt
+```
 
 ## Citation
 If you find our work is useful in your research or applications, please consider giving us a star 🌟 and citing it.
