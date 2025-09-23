@@ -25,7 +25,7 @@ custom_imports = dict(imports=['mmpretrain.models'], allow_failed_imports=False)
 
 model = dict(
     backbone=dict(type='SwinTransformer', window_size=7, convert_weights=True, 
-    init_cfg=dict(type='Pretrained', checkpoint='/liuchuni/defect_detection/weights/swin_base_patch4_window7_224.pth')
+    init_cfg=dict(type='Pretrained', checkpoint='/XXX/defect_detection/weights/swin_base_patch4_window7_224.pth')
     ),
     head=dict(num_classes=num_classes))
 

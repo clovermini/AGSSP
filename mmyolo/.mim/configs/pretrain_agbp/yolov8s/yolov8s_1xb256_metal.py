@@ -21,7 +21,7 @@ train_dataloader = dict(batch_size=1024, num_workers=8)
 # schedule settings fp16 amp setting
 optim_wrapper = dict(type='AmpOptimWrapper', loss_scale='dynamic')
 
-load_from = '/liuchuni/defect_detection/weights/yolov8s-resnet_cls.pth'
+load_from = '/XXX/defect_detection/weights/yolov8s-resnet_cls.pth'
 
 last_stage_out_channels = 1024
 deepen_factor = 0.33

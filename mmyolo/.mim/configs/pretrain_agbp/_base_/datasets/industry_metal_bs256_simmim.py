@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'CustomDataset'
-data_root = '/liuchuni/datasets/'
+data_root = '/XXX/datasets/'
 mean = [110.2955, 113.433, 109.914]
 std = [32.028, 30.614, 30.27]
 

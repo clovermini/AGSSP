@@ -14,7 +14,7 @@ max_epochs = 500
 train_batch_size_per_gpu = 6
 train_num_workers = 4  
 
-load_from = '/home/data/liuchuni/projects/defect_detection/weights/own_pretrain/metal_ft_swinb_l2_frozen_simmim_dino_epoch_10.pth'
+load_from = '/home/data/XXX/projects/defect_detection/weights/own_pretrain/metal_ft_swinb_l2_frozen_simmim_dino_epoch_10.pth'
 
 find_unused_parameters=True
 channels = [256, 512, 1024]

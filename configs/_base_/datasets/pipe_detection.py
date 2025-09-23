@@ -1,25 +1,12 @@
 # dataset settings
 dataset_type = 'CocoDataset'
-#data_root = '/home/data/Datasets/public/pipeData/'
-#class_name = ('warp', 'external fold', 'wrinkle', 'scratch')
-data_root = '/home/data/Datasets/public/casting_billet/'
-class_name = ('scratch', 'weld slag', 'cutting opening', 'water slag mark', 'slag skin', 'longitudinal crack')
+data_root = '/XXX/datasets/collection_of_images/pretrain_distill_1017/'
+class_name = ('anomaly')
 num_classes = len(class_name)
 metainfo = dict(classes=class_name, palette='random')  
+custom_imports = dict(imports=['mmdet.models'], allow_failed_imports=False)
 
-# Example to use different file client
-# Method 1: simply set the data root and let the file I/O module
-# automatically infer from prefix (not support LMDB and Memcache yet)
 
-# data_root = 's3://openmmlab/datasets/detection/coco/'
-
-# Method 2: Use `backend_args`, `file_client_args` in versions before 3.0.0rc6
-# backend_args = dict(
-#     backend='petrel',
-#     path_mapping=dict({
-#         './data/': 's3://openmmlab/datasets/detection/',
-#         'data/': 's3://openmmlab/datasets/detection/'
-#     }))
 backend_args = None
 img_scale = (640, 640)  # width, height  (1333, 800)
 
@@ -55,6 +42,7 @@ train_dataloader = dict(
         filter_cfg=dict(filter_empty_gt=False, min_size=32),
         pipeline=train_pipeline,
         backend_args=backend_args))
+
 val_dataloader = dict(
     batch_size=1,
     num_workers=2,
@@ -79,25 +67,3 @@ val_evaluator = dict(
     format_only=False,
     backend_args=backend_args)
 test_evaluator = val_evaluator
-
-# inference on test dataset and
-# format the output results for submission.
-# test_dataloader = dict(
-#     batch_size=1,
-#     num_workers=2,
-#     persistent_workers=True,
-#     drop_last=False,
-#     sampler=dict(type='DefaultSampler', shuffle=False),
-#     dataset=dict(
-#         type=dataset_type,
-#         data_root=data_root,
-#         ann_file=data_root + 'annotations/image_info_test-dev2017.json',
-#         data_prefix=dict(img='test2017/'),
-#         test_mode=True,
-#         pipeline=test_pipeline))
-# test_evaluator = dict(
-#     type='CocoMetric',
-#     metric='bbox',
-#     format_only=True,
-#     ann_file=data_root + 'annotations/image_info_test-dev2017.json',
-#     outfile_prefix='./work_dirs/coco_detection/test')

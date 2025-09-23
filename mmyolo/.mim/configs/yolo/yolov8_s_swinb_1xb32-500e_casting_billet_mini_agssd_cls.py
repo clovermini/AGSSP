@@ -21,7 +21,7 @@ deepen_factor = _base_.deepen_factor
 widen_factor = 1.0
 channels = [256, 512, 1024]   # 128, 256, 512, 1024
 
-load_from = '/home/data/liuchuni/projects/defect_detection/weights/own_pretrain/metal_ft_swinb_l2_frozen_epoch_10.pth'
+load_from = '/home/data/XXX/projects/defect_detection/weights/own_pretrain/metal_ft_swinb_l2_frozen_epoch_10.pth'
 
 model = dict(
     backbone=dict(

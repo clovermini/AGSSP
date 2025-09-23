@@ -16,7 +16,7 @@ train_num_workers = 8
 base_lr = _base_.base_lr / 4 
 optim_wrapper = dict(optimizer=dict(lr=base_lr)) 
 
-load_from = '/home/data/liuchuni/projects/defect_detection/weights/own_pretrain/metal_ft_rs50_cos_frozen_epoch_10.pth'
+load_from = '/home/data/XXX/projects/defect_detection/weights/own_pretrain/metal_ft_rs50_cos_frozen_epoch_10.pth'
 
 channels = [512, 1024, 2048]
 deepen_factor = _base_.deepen_factor

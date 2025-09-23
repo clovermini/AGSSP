@@ -16,7 +16,7 @@ model = dict(
         norm_cfg=dict(type='BN', requires_grad=True),
         norm_eval=True,
         style='pytorch',
-        init_cfg=dict(type='Pretrained', checkpoint='/home/data/liuchuni/projects/defect_detection/weights/resnet50-0676ba61.pth')),   # torchvision://resnet50
+        init_cfg=dict(type='Pretrained', checkpoint='/home/data/XXX/projects/defect_detection/weights/resnet50-0676ba61.pth')),   # torchvision://resnet50
     neck=dict(
         type='FPN',
         in_channels=[256, 512, 1024, 2048],

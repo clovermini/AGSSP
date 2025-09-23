@@ -8,7 +8,7 @@ train_dataloader = dict(batch_size=320, num_workers=8)
 
 work_dir = './work_dirs/simmim_swin-base-w6_1xb256-amp-coslr-500e_in1k-192px_metal'
 
-load_from = '/liuchuni/defect_detection/weights/simmim_swin-base_16xb128-amp-coslr-800e_in1k-192_20220916-a0e931ac.pth'
+load_from = '/XXX/defect_detection/weights/simmim_swin-base_16xb128-amp-coslr-800e_in1k-192_20220916-a0e931ac.pth'
 
 # model settings
 model = dict(

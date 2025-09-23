@@ -14,7 +14,7 @@ max_epochs = 500
 train_batch_size_per_gpu = 6
 train_num_workers = 4  
 
-load_from = '/home/data/liuchuni/projects/defect_detection/weights/simmim_swin-base_16xb128-amp-coslr-800e_in1k-192_20220916-a0e931ac.pth'
+load_from = '/home/data/XXX/projects/defect_detection/weights/simmim_swin-base_16xb128-amp-coslr-800e_in1k-192_20220916-a0e931ac.pth'
 find_unused_parameters=True
 channels = [256, 512, 1024]
 model = dict(

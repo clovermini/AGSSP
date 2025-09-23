@@ -19,7 +19,7 @@ max_epochs = 500
 
 optim_wrapper = dict(optimizer=dict(lr=0.01)) 
 
-load_from = '/home/data/liuchuni/projects/defect_detection/weights/own_pretrain/metal_ft_swinb_l2_frozen_simmim_rcnn_epoch_10.pth'
+load_from = '/home/data/XXX/projects/defect_detection/weights/own_pretrain/metal_ft_swinb_l2_frozen_simmim_rcnn_epoch_10.pth'
 find_unused_parameters=True
 
 model = dict(

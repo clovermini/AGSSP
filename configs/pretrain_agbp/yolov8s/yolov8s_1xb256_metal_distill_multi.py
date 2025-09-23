@@ -18,7 +18,7 @@ custom_imports = dict(imports=['mmyolo.models'], allow_failed_imports=False)
 # dataset 2 x 224
 train_dataloader = dict(batch_size=1024, num_workers=8)
 
-load_from = '/liuchuni/defect_detection/weights/yolov8s-resnet_cls.pth'
+load_from = '/XXX/defect_detection/weights/yolov8s-resnet_cls.pth'
 
 last_stage_out_channels = 1024
 deepen_factor = 0.33

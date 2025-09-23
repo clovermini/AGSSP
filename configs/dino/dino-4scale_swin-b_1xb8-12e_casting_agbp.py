@@ -15,7 +15,7 @@ train_batch_size_per_gpu = 6
 train_num_workers = 4  
 
 
-load_from = '/home/data/liuchuni/projects/defect_detection/weights/own_pretrain/metal_simmim_distill_multi_frozen_epoch_200.pth'
+load_from = '/home/data/XXX/projects/defect_detection/weights/own_pretrain/metal_simmim_distill_multi_frozen_epoch_200.pth'
 
 find_unused_parameters=True
 channels = [256, 512, 1024]

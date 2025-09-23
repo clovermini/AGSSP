@@ -1,8 +1,8 @@
 _base_ = '../yolov8/yolov8_s_syncbn_fast_8xb16-500e_coco.py'
 
-data_root = '/liuchuni/datasets/collection_of_images/pretrain_distill_1017/'
+data_root = '/XXX/datasets/collection_of_images/pretrain_distill_1017/'
 class_name = ('anomaly')
-num_classes = len(class_name)
+num_classes = 1 # len(class_name)
 metainfo = dict(classes=class_name, palette='random')  
 custom_imports = dict(imports=['mmdet.models'], allow_failed_imports=False)
 
@@ -29,7 +29,7 @@ model = dict(
         norm_cfg=dict(type='BN', requires_grad=True),
         norm_eval=True,
         style='pytorch',
-        init_cfg=dict(type='Pretrained', checkpoint='/liuchuni/defect_detection/weights/own_pretrain/metal_v3_distill_rs50_cos_multi_frozen_epoch_200.pth', prefix='backbone.')), 
+        init_cfg=dict(type='Pretrained', checkpoint='/XXX/defect_detection/weights/own_pretrain/metal_v3_distill_rs50_cos_multi_frozen_epoch_200.pth', prefix='backbone.')), 
     neck=dict(
         type='YOLOv8PAFPN',
         widen_factor=widen_factor,

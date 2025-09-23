@@ -21,7 +21,7 @@ model = dict(
     type='ImageDistillClassifier',
     backbone=dict(
         type='SwinTransformer', arch='base', img_size=224, drop_path_rate=0.5, window_size=7, convert_weights=True, out_indices=(3,), frozen_stages=1,
-        init_cfg=dict(type='Pretrained', checkpoint='/liuchuni/defect_detection/weights/swin_base_patch4_window7_224.pth')
+        init_cfg=dict(type='Pretrained', checkpoint='/XXX/defect_detection/weights/swin_base_patch4_window7_224.pth')
         ),
     neck=dict(type='GlobalAveragePooling'),
     head=dict(

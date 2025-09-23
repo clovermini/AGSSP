@@ -15,7 +15,7 @@ train_num_workers = 4
 base_lr = _base_.base_lr / 4  
 optim_wrapper = dict(optimizer=dict(lr=base_lr))  
 
-load_from = '/home/data/liuchuni/projects/defect_detection/weights/own_pretrain/metal_ft_yolov8s_cos_frozen_epoch_10.pth'
+load_from = '/home/data/XXX/projects/defect_detection/weights/own_pretrain/metal_ft_yolov8s_cos_frozen_epoch_10.pth'
 
 model = dict(
     backbone=dict(frozen_stages=-1,  

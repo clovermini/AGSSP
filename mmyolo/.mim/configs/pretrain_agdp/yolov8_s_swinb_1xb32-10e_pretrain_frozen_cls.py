@@ -1,6 +1,6 @@
 _base_ = '../yolov8/yolov8_s_syncbn_fast_8xb16-500e_coco.py'
 
-data_root = '/liuchuni/datasets/collection_of_images/pretrain_distill_1017/'
+data_root = '/XXX/datasets/collection_of_images/pretrain_distill_1017/'
 class_name = ('anomaly')
 num_classes = len(class_name)
 metainfo = dict(classes=class_name, palette='random') 
@@ -18,7 +18,7 @@ optim_wrapper = dict(optimizer=dict(lr=base_lr))
 channels = [256, 512, 1024]   # 128, 256, 512, 1024
 deepen_factor = _base_.deepen_factor
 widen_factor = 1.0
-load_from = '/liuchuni/defect_detection/weights/own_pretrain/metal_v3_distill_swinb_multi_frozen_epoch_200.pth'
+load_from = '/XXX/defect_detection/weights/own_pretrain/metal_v3_distill_swinb_multi_frozen_epoch_200.pth'
 
 model = dict(
     backbone=dict(

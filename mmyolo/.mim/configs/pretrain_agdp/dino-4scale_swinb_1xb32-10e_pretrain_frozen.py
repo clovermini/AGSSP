@@ -2,7 +2,7 @@ _base_ = [
     './_base_/datasets/pretrain_dataset.py', './_base_/default_runtime.py'
 ]
 
-data_root = '/liuchuni/datasets/collection_of_images/pretrain_distill_1017/'
+data_root = '/XXX/datasets/collection_of_images/pretrain_distill_1017/'
 class_name = ('anomaly')
 num_classes = len(class_name)
 metainfo = dict(classes=class_name, palette='random')  
@@ -17,7 +17,7 @@ train_num_workers = 4
 # base_lr = _base_.base_lr / 4   
 # optim_wrapper = dict(optimizer=dict(lr=base_lr))  
 
-load_from = '/liuchuni/defect_detection/weights/own_pretrain/metal_simmim_distill_multi_frozen_epoch_200.pth'
+load_from = '/XXX/defect_detection/weights/own_pretrain/metal_simmim_distill_multi_frozen_epoch_200.pth'
 find_unused_parameters=True
 
 channels = [256, 512, 1024]

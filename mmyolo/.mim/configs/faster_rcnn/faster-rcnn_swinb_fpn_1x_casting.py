@@ -19,7 +19,7 @@ max_epochs = 500
 
 optim_wrapper = dict(optimizer=dict(lr=0.01))
 
-load_from = '/home/data/liuchuni/projects/defect_detection/weights/simmim_swin-base_16xb128-amp-coslr-800e_in1k-192_20220916-a0e931ac.pth'
+load_from = '/home/data/XXX/projects/defect_detection/weights/simmim_swin-base_16xb128-amp-coslr-800e_in1k-192_20220916-a0e931ac.pth'
 find_unused_parameters=True
 
 model = dict(

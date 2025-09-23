@@ -21,7 +21,7 @@ deepen_factor = _base_.deepen_factor
 widen_factor = 1.0
 channels = [256, 512, 1024]   # 128, 256, 512, 1024
 
-checkpoint_file = '/home/data/liuchuni/projects/defect_detection/weights/swin_base_patch4_window7_224.pth'
+checkpoint_file = '/home/data/XXX/projects/defect_detection/weights/swin_base_patch4_window7_224.pth'
 
 model = dict(
     backbone=dict(

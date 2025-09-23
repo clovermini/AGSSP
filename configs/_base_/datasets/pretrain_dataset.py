@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'CocoDataset'
-data_root = '/liuchuni/datasets/collection_of_images/pretrain_distill_1017/'
+data_root = '/XXX/datasets/collection_of_images/pretrain_distill_1017/'
 class_name = ('anomaly')
 num_classes = len(class_name)
 metainfo = dict(classes=class_name, palette='random')  

@@ -1,8 +1,8 @@
 _base_ = '../yolov8/yolov8_s_syncbn_fast_8xb16-500e_coco.py'
 
-data_root = '/liuchuni/datasets/collection_of_images/pretrain_distill_1017/'
+data_root = '/XXX/datasets/collection_of_images/pretrain_distill_1017/'
 class_name = ('anomaly')
-num_classes = len(class_name)
+num_classes = 1 # len(class_name)
 metainfo = dict(classes=class_name, palette='random')
 
 work_dir = './work_dirs/metal_distill_multi_frozen/yolov8_s_syncbn_fast_1xb32-10e_pretrain_frozen'
@@ -11,7 +11,7 @@ max_epochs = 10
 train_batch_size_per_gpu = 200
 train_num_workers = 8  
 
-load_from = '/liuchuni/defect_detection/weights/own_pretrain/metal_v3_distill_yolov8s_cos_multi_frozen_epoch_200.pth'
+load_from = '/XXX/defect_detection/weights/own_pretrain/metal_v3_distill_yolov8s_cos_multi_frozen_epoch_200.pth'
 
 model = dict(
     backbone=dict(frozen_stages=4),

@@ -16,7 +16,7 @@ base_lr = _base_.base_lr / 4
 optim_wrapper = dict(optimizer=dict(lr=base_lr))  
 
 #load_from = 'https://download.openmmlab.com/mmyolo/v0/yolov5/yolov5_s-v61_syncbn_fast_8xb16-300e_coco/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth'  # noqa
-#load_from = '/home/data/liuchuni/projects/defect_detection/weights/yolov8_s_syncbn_fast_8xb16-500e_coco_20230117_180101-5aa5f0f1.pth'
+#load_from = '/home/data/XXX/projects/defect_detection/weights/yolov8_s_syncbn_fast_8xb16-500e_coco_20230117_180101-5aa5f0f1.pth'
 channels = [512, 1024, 2048]
 deepen_factor = _base_.deepen_factor
 widen_factor = 1.0
@@ -31,7 +31,7 @@ model = dict(
         norm_cfg=dict(type='BN', requires_grad=True),
         norm_eval=True,
         style='pytorch',
-        init_cfg=dict(type='Pretrained', checkpoint='/home/data/liuchuni/projects/defect_detection/weights/resnet50-0676ba61.pth')), 
+        init_cfg=dict(type='Pretrained', checkpoint='/home/data/XXX/projects/defect_detection/weights/resnet50-0676ba61.pth')), 
     neck=dict(
         type='YOLOv8PAFPN',
         widen_factor=widen_factor,

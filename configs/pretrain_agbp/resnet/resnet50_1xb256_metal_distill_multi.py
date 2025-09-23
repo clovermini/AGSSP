@@ -25,7 +25,7 @@ model = dict(
         out_indices=(2, 3),
         frozen_stages=2,
         style='pytorch',
-        init_cfg=dict(type='Pretrained', checkpoint='/liuchuni/defect_detection/weights/resnet50-0676ba61.pth')),
+        init_cfg=dict(type='Pretrained', checkpoint='/XXX/defect_detection/weights/resnet50-0676ba61.pth')),
     neck=dict(type='GlobalAveragePooling'),
     head=dict(
         type='LinearClsHead',

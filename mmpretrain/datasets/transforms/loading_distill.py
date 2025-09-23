@@ -1,5 +1,4 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-# liuchuni 2024.10.15
 import warnings
 from pathlib import Path
 from typing import Dict, Optional, Union

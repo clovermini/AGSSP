@@ -4,7 +4,7 @@ _base_ = [
     './_base_/schedules/schedule_10e.py', './_base_/default_runtime.py'
 ]
 
-data_root = '/liuchuni/datasets/collection_of_images/pretrain_distill_1017/'
+data_root = '/XXX/datasets/collection_of_images/pretrain_distill_1017/'
 class_name = ('anomaly')
 num_classes = len(class_name)
 metainfo = dict(classes=class_name, palette='random')  
@@ -17,7 +17,7 @@ max_epochs = 10
 train_batch_size_per_gpu = 128
 train_num_workers = 8  
 
-load_from = '/liuchuni/defect_detection/weights/own_pretrain/metal_simmim_distill_multi_frozen_epoch_200.pth'
+load_from = '/XXX/defect_detection/weights/own_pretrain/metal_simmim_distill_multi_frozen_epoch_200.pth'
 find_unused_parameters=True
 
 model = dict(
