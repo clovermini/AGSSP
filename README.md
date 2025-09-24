@@ -69,12 +69,14 @@ sh run_yolo.sh
 
 ## Citation
 If you find our work is useful in your research or applications, please consider giving us a star 🌟 and citing it.
-    @misc{liu2025advancingmetallicsurfacedefect,
-      title={Advancing Metallic Surface Defect Detection via Anomaly-Guided Pretraining on a Large Industrial Dataset}, 
-      author={Chuni Liu and Hongjie Li and Jiaqi Du and Yangyang Hou and Qian Sun and Lei Jin and Ke Xu},
-      year={2025},
-      eprint={2509.18919},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2509.18919},
-    }
+
+```bibtex
+@misc{liu2025advancingmetallicsurfacedefect,
+  title={Advancing Metallic Surface Defect Detection via Anomaly-Guided Pretraining on a Large Industrial Dataset},
+  author={Chuni Liu and Hongjie Li and Jiaqi Du and Yangyang Hou and Qian Sun and Lei Jin and Ke Xu},
+  year={2025},
+  eprint={2509.18919},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2509.18919},
+}
