@@ -1,0 +1,304 @@
+{
+    "pcb2": {
+        "des": {
+            "good": [
+                "{} with main blue board is covered by a solder mask, giving it a smooth, uniform, and semi-gloss finish. It's non-porous and flat",
+                "{} with black rectangular chips (labeled U2, U3, etc.) have a matte, slightly grainy, molded plastic texture",
+                "{} with points where components are connected are made of solder. They are shiny, metallic, and smooth, often with a slightly convex or domed shape",
+                "{} with small white and black rectangular components (resistors and capacitors) are typically ceramic and have a hard, smooth surface",
+                "{} with pins sticking up from the board are smooth, straight, metallic posts",
+                "{} with white text (HC-SR04, C3, etc.) and component outlines are printed on the board. This layer is flat and smooth with sharp, well-defined edges"
+            ],
+            "defect": [
+                "{} with bent defect, it appears as metallic header pin that is sharply bent at an angle, bend itself is a sharp crease in the metal",
+                "{} with melt defect, it appears as chaotic mix of black, yellow, and silver, irregular, mangled, and twisted mass, shiny, metallic silver solder bridge, edges are lumpy, uneven, and rounded, surface of the solder bridge is lumpy and uneven",
+                "{} with scratch defect, it appears as whitish or bright silver lines, thin, slightly curved linear mark, edges of the scratch are sharp and well-defined, typical of an incision or a scrape from a hard object",
+                "{} with missing defect, it appears as absence of a metallic header pin, absence of the black, rectangular plastic bodies of the ICs, missing metal gasket"
+            ]
+        },
+        "map": "pcb surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb2/train/good/0125.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb2/train/good/0342.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb2/train/good/0231.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb2/train/good/0637.JPG"
+        ]
+    },
+    "macaroni2": {
+        "des": {
+            "good": [
+                "{} with uniform C-shape",
+                "{} with matte or semi-matte finish",
+                "{} with uniform and consistent pale yellow or amber, without spots or discoloration",
+                "{} with cut edges are sharp and clean, and the overall texture is non-porous",
+                "{} with parallel ridges or striations that run along the length of the curved tube, giving it a slightly grooved texture",
+                "{} with solid, uniformly amber-colored, and features fine, parallel ridges"
+            ],
+            "defect": [
+                "{} with chip defect, it appears as large, jagged fracture, edges of the break are sharp, jagged, and fractured",
+                "{} with different colour spot defect, it appears as vividly colored specks of foreign material, tiny, irregularly shaped specks or dots",
+                "{} with breakage defect, it appears as small, circular hole surrounded by a rough, whitish, abraded patch",
+                "{} with cracks defect, it appears as sharp, jagged, whitish crack, irregular, jagged line, crack is a pale, whitish-yellow",
+                "{} with scratches defect, it appears as whitish, curved scratch that creates a subtle but clear textural break, scratch is a pale, whitish-yellow, curved linear mark",
+                "{} with similar colour spot defect, it appears as bright, opaque yellow smudge on the surface"
+            ]
+        },
+        "map": "macaroni surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/macaroni2/train/good/0412.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/macaroni2/train/good/0503.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/macaroni2/train/good/0727.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/macaroni2/train/good/0078.JPG"
+        ]
+    },
+    "macaroni1": {
+        "des": {
+            "good": [
+                "{} with hard, solid, and brittle, uniform C-shape",
+                "{} with matte or semi-matte finish, lacking any significant shine or gloss",
+                "{} with uniform and consistent pale yellow or amber, without spots or discoloration",
+                "{} with cut edges are sharp and clean, and the overall texture is non-porous",
+                "{} with parallel ridges or striations that run along the length of the curved tube, giving it a slightly grooved texture",
+                "{} with solid, uniformly amber-colored, and features fine, parallel ridges"
+            ],
+            "defect": [
+                "{} with chip defect, it appears as large, jagged fracture, edges of the break are sharp, jagged, and fractured",
+                "{} with different colour spot defect, it appears as vividly colored specks of foreign material, tiny, irregularly shaped specks or dots",
+                "{} with breakage defect, it appears as rough, whitish, jagged chip, edges of the break are sharp, jagged, and fractured, irregularly shaped chip or gouge",
+                "{} with cracks defect, it appears as sharp, jagged, whitish crack, irregular, jagged line, crack is a pale, whitish-yellow",
+                "{} with scratches defect, it appears as whitish, curved scratch, scratch is a pale, whitish-yellow, curved linear mark",
+                "{} with similar colour spot defect, it appears as bright, opaque yellow smudge on the surface, irregular smudge or blotch"
+            ]
+        },
+        "map": "macaroni surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/macaroni1/train/good/0135.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/macaroni1/train/good/0776.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/macaroni1/train/good/0662.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/macaroni1/train/good/0609.JPG"
+        ]
+    },
+    "cashew": {
+        "des": {
+            "good": [
+                "{} with smooth and solid, with a fine, uniform grain",
+                "{} with overall contour is rounded and non-porous, without any cracks, pits, or rough patches",
+                "{} with consistent, even-toned beige or light tan",
+                "{} with normal, simple crescent form"
+            ],
+            "defect": [
+                "{} with burnt defect, it appears as a tiny, dark, circular pinhole, appearing as a burn mark, a dark brown or black dot, a scorch mark or a burn that has punctured the surface",
+                "{} with corner or edge breakage defect, it appears as rough, jagged chip missing from the cashew's edge, an irregularly shaped chip where a piece of the nut is missing, the edges of the break are rough, sharp, and fractured, the exposed surface of the chip appears coarse and uneven",
+                "{} with different colour spot defect, it appears as tiny, dark spot with sharp edges that creates a strong color contrast",
+                "{} with breakage defect, it appears as rough, bright white patch where the surface has been abraded, bright, chalky white, irregularly shaped, elongated patch or scuff mark, appears coarse, abraded, and possibly powdery",
+                "{} with holes defect, it appears as a single, tiny, dark, circular pinhole that creates a distinct textural and color contrast, interior of the hole is dark brown or black",
+                "{} with same colour spot defect, it appears as tiny, slightly darker beige spot with soft edges, tiny, irregularly shaped dot or speck, appears to be a minor surface discoloration",
+                "{} with stuck together defect, it appears as severe geometric malformation, malformed cashew that appears to be two pieces stuck or fused together",
+                "{} with scratches defect, it appears as very fine, faint, whitish linear scratch that creates a subtle textural break on the cashew surface, scratch is a very faint, whitish-beige color"
+            ]
+        },
+        "map": "cashew surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/cashew/train/good/180.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/cashew/train/good/226.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/cashew/train/good/475.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/cashew/train/good/052.JPG"
+        ]
+    },
+    "capsules": {
+        "des": {
+            "good": [
+                "{} with uniform and consistent texture"
+            ],
+            "defect": [
+                "{} with bubble defect, it appears as a small, well-defined circular dimple or air bubble that disrupts the capsule surface, appears to be a small concave dimple or an air bubble trapped just beneath the surface",
+                "{} with scratch defect, it appears as a rough, whitish scratch mark composed of fine lines that creates a strong textural contrast, scratch is whitish",
+                "{} with leak defect, it appears as a jagged rupture on the capsule's shell, which has allowed a dark, oily liquid to leak out, creating a distinct stain, leaked substance is a dark, oily, almost black liquid",
+                "{} with misshape defect, it appears as a severe structural deformity where the capsule is misshapen with irregular indentations, protrusions, and fine cracks, a large, irregular indentation"
+            ]
+        },
+        "map": "capsules surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/capsules/train/good/301.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/capsules/train/good/169.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/capsules/train/good/158.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/capsules/train/good/396.JPG"
+        ]
+    },
+    "pcb3": {
+        "des": {
+            "good": [
+                "{} with main blue board has a smooth, uniform, and semi-gloss finish from its solder mask layer",
+                "{} with central black rectangular chip has a matte, slightly grainy, molded plastic texture",
+                "{} with blue circular component is made of matte plastic with a metallic screw in the center that has a grooved, cross-shaped indentation",
+                "{} with with black and beige rectangular components (resistors and capacitors) have hard, smooth surfaces",
+                "{} with three pins on the left are smooth, straight, metallic posts",
+                "{} with white text and component outlines are a printed layer that is flat and smooth"
+            ],
+            "defect": [
+                "{} with bent defect, it appears as metallic header pin that is sharply bent at an angle, bend itself is a sharp crease in the metal, clear LED that is sharply bent downwards",
+                "{} with melt defect, it appears as chaotic mix of black, yellow, and silver, irregular, mangled, and twisted mass, shiny, metallic silver solder bridge, edges are lumpy, uneven, and rounded, surface of the solder bridge is lumpy and uneven",
+                "{} with scratch defect, it appears as whitish or bright silver lines, thin, slightly curved linear mark, edges of the scratch are sharp and well-defined, typical of an incision or a scrape from a hard object",
+                "{} with part missing defect"
+            ]
+        },
+        "map": "pcb surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb3/train/good/0290.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb3/train/good/0633.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb3/train/good/0709.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb3/train/good/0597.JPG"
+        ]
+    },
+    "pcb1": {
+        "des": {
+            "good": [
+                "{} with blue board itself has a smooth, uniform, and semi-gloss finish from its solder mask layer",
+                "{} with silver rectangular component in the middle has a smooth, matte metallic finish",
+                "{} with four pins at the top are smooth, straight metallic posts",
+                "{} without any scratch",
+                "{} without any discoloration"
+            ],
+            "defect": [
+                "{} with bent defect, it appears as metallic header pin that is sharply bent at an angle",
+                "{} with melt defect, it appears as metallic silver solder bridge, edges are lumpy, uneven, and rounded",
+                "{} with scratch defect, it appears as a rough, whitish scratch mark composed of fine lines that creates a strong textural contrast, scratch is whitish",
+                "{} with part missing defect"
+            ]
+        },
+        "map": "pcb surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb1/train/good/0594.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb1/train/good/0584.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb1/train/good/0282.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb1/train/good/0513.JPG"
+        ]
+    },
+    "chewinggum": {
+        "des": {
+            "good": [
+                "{} with smooth and uniform, with a hard, candy-coated shell",
+                "{} with semi-gloss or satin finish, reflecting light softly",
+                "{} with solid and non-porous, completely without any cracks, pits, or bumps",
+                "{} with consistent, opaque white, with no spots or discoloration",
+                "{} with soft, rounded edges and corners, giving it a pillow-like form"
+            ],
+            "defect": [
+                "{} with chunk of gum missing defect, it appears as fine crack originating from a small, rough-edged hole, which together create a distinct structural fracture, irregularly circular hole with a thin, slightly curved crack extending from it, is a structural and textural break",
+                "{} with scratches defect, it appears as fine horizontal crack that creates a sharp structural break on the chewing gum, edges are sharp and well-defined, typical of a clean break or crack in a hard shell, a physical fracture defect",
+                "{} with corner missing defect, it appears as a jagged chip on the corner where the smooth white coating is broken off, revealing a rough, discolored, and crumbly core underneath, exposes a grayish-brown, dull material,  irregularly shaped chip where a piece of the outer shell is missing, edges of the break are sharp and fractured, exposed area appears rough, matte, and crumbly",
+                "{} with similar colour spot defect, it appears as a translucent, grayish, or water spot like color, appears to be a shallow indentation or dimple"
+            ]
+        },
+        "map": "chewinggum surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/chewinggum/train/good/401.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/chewinggum/train/good/457.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/chewinggum/train/good/230.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/chewinggum/train/good/427.JPG"
+        ]
+    },
+    "pipe_fryum": {
+        "des": {
+            "good": [
+                "{} with a matte finish and a slightly rough, uneven, and granular texture",
+                "{} with hard, solid, and brittle, which is characteristic of its uncooked, dehydrated state",
+                "{} with uniform and consistent pale beige or off-white, without spots or discoloration",
+                "{} with finely porous, without any large cracks, chips, or foreign particles",
+                "{} with edges are straight-cut and sharp, defining its rectangular form"
+            ],
+            "defect": [
+                "{} with burnt defect, it appears as dark, reddish-brown, irregularly shaped speck of foreign material embedded within one of the spokes, a dark reddish-brown, consistent with a scorch or burn mark",
+                "{} with similar colour spot defect, it appears as a cluster of small, opaque white or yellow irregular oval or circular speck with clear edges",
+                "{} with corner and edge breakage defect, it appears as sharp-edged, semi-circular notch on the fryum's side, edges of the notch are sharp and appear fractured",
+                "{} with breakage defect, it appears as large, jagged hole with sharp, fractured edges and radiating cracks, interior of the hole is dark brown or black, edges of the hole are extremely sharp, jagged, and fractured, indicating a significant brittle break",
+                "{} with scratches defect, it appears as rough, whitish, linear scratch, edges are rough and feathered, blending into the normal surface without a sharp boundary, scratch is a whitish or very pale beige, elongated, linear patch composed of fine, parallel striations or scuff marks",
+                "{} with different colour spot defect, it appears as small, dark, purplish-brown or black spot mark, discoloration spot",
+                "{} with fryum stuck together defect, it appears as severe structural malformation, two fryum are stacked or placed together"
+            ]
+        },
+        "map": "fryum surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pipe_fryum/train/good/183.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pipe_fryum/train/good/334.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pipe_fryum/train/good/091.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pipe_fryum/train/good/173.JPG"
+        ]
+    },
+    "pcb4": {
+        "des": {
+            "good": [
+                "{} with main blue board is covered by a solder mask, giving it a smooth, uniform, and semi-gloss finish",
+                "{} with silver connector on the left is made of metal and has a smooth, matte metallic texture",
+                "{} with central black rectangular chip (TC4056A) has a matte, slightly grainy, molded plastic surface",
+                "{} with small rectangular components (resistors and capacitors) are primarily ceramic and have hard, smooth surfaces",
+                "{} with silvery points where components are attached are made of solder. They are shiny, metallic, and smooth, often with a slightly convex or domed shape",
+                "{} with white text (IN+, BAT-, etc.) and component outlines are printed on the board. This layer is flat and smooth with sharp, well-defined edges"
+            ],
+            "defect": [
+                "{} with burnt defect, it appears as dull, brownish color burnt or dirty residue, irregular smudge or halo, edges of the brownish residue are soft, blurry, and indistinct, like a stain, possibly burnt flux",
+                "{} with scratch defect, it appears as sharp, bright blue linear scratch, thin, slightly jagged linear mark, it is a shallow groove or gouge",
+                "{} with dirt defect, it appears as speck on the resistor is dark brown or black, tiny, irregularly shaped speck, dirt speck has relatively sharp edges, appears to be a solid particle of foreign material resting on the component",
+                "{} with damage defect, it appears as severely crushed and distorted micro-USB port, rectangular metal casing is severely crushed and bent, edges are bent, jagged, and uneven as a result of the crushing force",
+                "{} with extra defect, it appears as large, irregular blob of excess solder, extra, unwanted lumpy material",
+                "{} with missing defect, it appears as absence of a rectangular resistor, absence of certain parts on the pcb"
+            ]
+        },
+        "map": "pcb surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb4/train/good/0984.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb4/train/good/0332.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb4/train/good/0515.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/pcb4/train/good/0563.JPG"
+        ]
+    },
+    "fryum": {
+        "des": {
+            "good": [
+                "{} with consistent and uniform pale, pinkish-beige color"
+            ],
+            "defect": [
+                "{} with burnt defect, it appears as dark, reddish-brown, irregularly shaped speck of foreign material embedded within one of the spokes, a dark reddish-brown or black color, suggesting it is a piece of burnt material",
+                "{} with similar colour spot defect, it appears as a cluster of small, reddish-brown spots with soft edges",
+                "{} with corner or edge breakage defect, it appears as clean break in the outer rim where a piece is missing， edges at the two points of the break are sharp, clean, and fractured, indicating a brittle snap rather than a molding error",
+                "{} with breakage defect, it appears as structural malformation where a poorly formed spoke merges incorrectly with the central hub, edges at the two points of the break are sharp, clean, and fractured, indicating a brittle snap rather than a molding error",
+                "{} with scratches defect, it appears as rough, whitish, linear scratch, edges are rough and feathered, blending into the normal surface without a sharp boundary, scratch is a whitish or very pale beige, elongated, linear patch composed of fine, parallel striations or scuff marks",
+                "{} with different colour spot defect, it appears as small, dark, purplish-brown linear mark, discoloration spot",
+                "{} with fryum stuck together defect, it appears as severe structural malformation, two fryum are stacked together"
+            ]
+        },
+        "map": "fryum surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/fryum/train/good/332.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/fryum/train/good/099.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/fryum/train/good/365.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/fryum/train/good/283.JPG"
+        ]
+    },
+    "candle": {
+        "des": {
+            "good": [
+                "{} with smooth and uniform, with a soft, waxy sheen",
+                "{} with consistent and homogeneous off-white color",
+                "{} with well-defined central indentation is present where the wick emerges",
+                "{} with flat and even across its circular shape"
+            ],
+            "defect": [
+                "{} with chunk of wax missing defect, it appears as irregularly shaped, grayish discoloration with blurry edges, blotchy, or cloud-like shape with no defined geometric form",
+                "{} with different colour spot defect, it appears as tiny, roughly circular dot or speck, discoloration, creates a stark color contrast with the candle's surface, tiny, bright red circular speck of foreign material",
+                "{} with extra wax in candle defect, it appears as irregular protrusion or lump of excess wax extending from candle, edges of the protrusion are rough, uneven, and poorly defined, irregular, rough-textured lump of excess wax protruding from the edge",
+                "{} with damaged corner of packaging defect, it appears as rough, irregular chip missing from the candle's rim, the gouged area are rough, uneven, and fractured",
+                "{} with weird candle wick defect, it appears as misplaced or missing candle wick",
+                "{} with foreign particals on candle defect, it appears as dark, irregularly shaped smudge of foreign material with a gritty texture, irregular, scattered, and blotchy shape",
+                "{} with wax melded out of the candle defect, it appears as rough, irregular chip missing from the candle's rim, an irregular indentation or a \"chip\" where a piece of wax is missing from the rim, appears coarse and uneven"
+            ]
+        },
+        "map": "candle surface",
+        "samples": [
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/candle/train/good/0610.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/candle/train/good/0703.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/candle/train/good/0714.JPG",
+            "/data/datasets/pub/public/own_anomaly_detect/Visa/candle/train/good/0846.JPG"
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+  "casting_billet": {
+    "des": {
+      "good": [
+                "{} without any damage",
+                "{} without any flaw",
+                "{} without any defect",
+                "{} without any faults",
+                "{} without any cracks",
+                "{} without any pits",
+                "{} without any irregularities",
+                "{} without any depressions"
+        ],
+      "defect": [
+        "{} with cutting opening defect, it appears as a dark rectangular region spanning the entire image width, featuring irregular jagged edges and localized surface roughness",
+        "{} with longitudinal crack defect, it appears as one or more darker, narrow, linear forms of elongated cracks running vertically through the material, featuring irregular edges and varying widths",
+        "{} with scratch defect, it appears as brighter elongated streaks or patches consisting of multiple narrow, linear features with slight jaggedness, exhibiting higher reflectivity than the surrounding material surface",
+        "{} with welding slag defect, it appears as irregular fracture patterns with sharp-edged, jagged morphologies surrounded by localized surface roughness and texture variations",
+        "{} with water slag mark defect, it appears as  circular discolorations with irregular boundaries, creating strong contrast through either darkening or lightening effects against the base material",
+        "{} with slag skin defect, it appears as  a fragmented surface with an irregular triangular shape, where one side is slightly curved and the other sides are more jagged, with dark cracks appearing at the edges"
+      ]
+    },
+    "map": "metal surface",
+    "samples": [
+      "/data/datasets/pub/public/Casting-Defect/Background/Ba_17.bmp",
+      "/data/datasets/pub/public/Casting-Defect/Background/Ba_27.bmp",
+      "/data/datasets/pub/public/Casting-Defect/Background/Ba_356.bmp",
+      "/data/datasets/pub/public/Casting-Defect/Background/Ba_70.bmp"
+    ]
+  },
+  "steel_pipe": {
+    "des": {
+      "good": [
+                "{} is a cylindrical object with visible texture, which should be without any damage",
+                "{} is a cylindrical object with visible texture, which should be without any flaw",
+                "{} is a cylindrical object with visible texture, which should be without any defect",
+                "{} is a cylindrical object with visible texture, which should be without any faults",
+                "{} is a cylindrical object with visible texture, which should be without any scratches",
+                "{} is a cylindrical object with visible texture, which should be without any depressions",
+                "{} is a cylindrical object with visible texture, which should be without any bumps",
+                "{} is a cylindrical object with visible texture, which should be without any irregularities"
+      ],
+      "defect": [
+        "{} with warp defect in cylindrical object with a textured surface, it appears narrow, elongated dark cracks that destroy the surface texture. These cracks are irregular in shape, semi-circular, partially warped, and sometimes accompanied by a sense of concavity and convexity",
+        "{} with external fold defect in cylindrical object with a textured surface, it appears as  a darker, narrow, jagged slanting line that runs from the upper right to the lower left, destroying the original texture; the vertical length of this line spans the entire image",
+        "{} with wrinkle defect in cylindrical object with a textured surface, it appears as pronounced elongated depressions characterized by distinct shadowing effects along their edges and alternating bright spot formations",
+        "{} with scratch defect in cylindrical object with a textured surface, it appears as  localized darker-toned depressions with irregular strip-like or rectangular geometries, featuring rough perimeter edges that significantly degrade the surrounding texture uniformity"
+      ]
+    },
+    "map": "steel pipe metal surface",
+    "samples": [
+      "/data/datasets/pub/public/pipeData/images_all/1677669469470.jpg",
+      "/data/datasets/pub/public/pipeData/images_all/1677920299414.jpg",
+      "/data/datasets/pub/public/pipeData/images_all/1677698490234.jpg",
+      "/data/datasets/pub/public/pipeData/images_all/1677092286813.jpg"
+    ]
+  }
+}

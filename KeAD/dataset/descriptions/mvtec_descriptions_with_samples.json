@@ -1,0 +1,348 @@
+{
+    "zipper": {
+        "des": {
+            "good": [
+                "{} without any broken",
+                "{} without any rough"
+            ],
+            "defect": [
+                "{} with broken teeth defect, it appears as crushed and jaggedly broken teeth that disrupts the zipper teeth structure, color of the damaged area is a dark gray, the teeth are crushed, jumbled, and misshapen, creating an irregular and chaotic form",
+                "{} with fabric border defect, it appears as a loose, tangled thread disrupting the edge of the zipper fabric tape, rough, thread-like texture, edges are frayed and fibrous, characteristic of a pulled or broken thread",
+                "{} with fabric interior defect, it appears as rough, fuzzy snag, texture is rough, fibrous, and fuzzy, appearing like a small ball of lint or a snag where the fabric has been severely abraded, dark gray, irregular, roughly circular shape, like a small, fuzzy blob",
+                "{} with rough defect, it appears as a rough, fuzzy snag, indistinct, frayed, and soft, which is characteristic of pulled or abraded fabric fibers",
+                "{} with split teeth defect, it appears as a split where the interlocking teeth have separated, creating a visible gap, an elongated, almond-shaped opening, a whitish gap",
+                "{} with squeezed teeth defect, it appears as a crushed and flattened section of the zipper teeth, flattened, compressed, and distorted"
+            ]
+        },
+        "map": "zipper surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/zipper/train/good/073.png",
+            "/data/datasets/pub/public/MVTec_AD/zipper/train/good/204.png",
+            "/data/datasets/pub/public/MVTec_AD/zipper/train/good/217.png",
+            "/data/datasets/pub/public/MVTec_AD/zipper/train/good/212.png"
+        ]
+    },
+    "tile": {
+        "des": {
+            "good": [
+                "{} without any crack",
+                "{} with smooth, solid, and features a uniform gray speckled pattern",
+                "{} with smooth, non-porous finish, likely with a semi-gloss or satin sheen that gives it a slight reflection",
+                "{} with mottled or speckled pattern, consisting of irregularly shaped dark gray spots randomly distributed over a lighter gray background",
+                "{} with overall pattern is uniform in its style but not geometrically repeating, creating a natural, stone-like appearance"
+            ],
+            "defect": [
+                "{} with crack defect, it appears as sharp, black, radiating crack with a rough, whitish chip, crack is a dark, opaque black, edges of the cracks are sharp and well-defined",
+                "{} with glue strip defect, it appears as sharp, irregularly shaped, semi-transparent shard of foreign material, irregular, angular polygon, shaped like a shard from a larger broken object, object is semi-transparent or translucent, appearing as a light gray or whitish color",
+                "{} with gray stroke defect, coarse, dark gray, circular blotch with a rough, gritty texture that creates a stark textural, edges are uneven and granulated, patch is a dense, dark gray, which is consistent with the color of the speckles but much more concentrated",
+                "{} with oil defect, it appears as glossy, translucent, circular blob of foreign material, blob is translucent with a yellowish or amber tint, roughly circular blob or solidified drop, surface is smooth and highly glossy or reflective",
+                "{} with rough defect, it appears as large, rough, abraded area with a coarse texture, a mixture of light and dark gray, large, horizontal band of damage, anomaly has a coarse, rough, and heavily abraded texture"
+            ]
+        },
+        "map": "tile surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/tile/train/good/146.png",
+            "/data/datasets/pub/public/MVTec_AD/tile/train/good/002.png",
+            "/data/datasets/pub/public/MVTec_AD/tile/train/good/158.png",
+            "/data/datasets/pub/public/MVTec_AD/tile/train/good/003.png"
+        ]
+    },
+    "bottle": {
+        "des": {
+            "good": [
+                "{} with smooth and reflective bottle opening, indicating a glossy or polished surface",
+                "{} with a series of concentric rings with slight tonal variations, suggesting minor surface undulations or layered coatings",
+                "{} with a consistent dark tone, the overall structure is symmetrical and uniform",
+                "{} with smooth, reflective, and homogeneous, characteristic of high-quality glass or polished plastic"
+            ],
+            "defect": [
+                "{} with broken defect, it appears as irregularly shaped piece of golden metallic coating that is peeling away from the dark, textured inner wall of the cylindrical component,  mostly looks like a dark, semi-transparent material",
+                "{} with broken defect, it appears as a bright, reflective golden-yellow color, which stands in sharp contrast to the dark background",
+                "{} with broken defect, it appears as irregular with jagged, torn-looking edges",
+                "{} with contamination defect, it appears as foreign material that is not part of the bottle itself, typically loose and unattached to the bottle's structure, different color, shape, and texture from the uniform, clean background of the bottle's interior"
+            ]
+        },
+        "map": "bottle surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/bottle/train/good/134.png",
+            "/data/datasets/pub/public/MVTec_AD/bottle/train/good/195.png",
+            "/data/datasets/pub/public/MVTec_AD/bottle/train/good/117.png",
+            "/data/datasets/pub/public/MVTec_AD/bottle/train/good/205.png"
+        ]
+    },
+    "pill": {
+        "des": {
+            "good": [
+                "{} with oval-shaped, white pill with a matte, chalky texture",
+                "{} with mostly uniform but is also characterized by small, embedded reddish specks or flecks, which give it a mottled or speckled appearance",
+                "{} with letters \"FF\" are imprinted into the surface, creating a slight depression"
+            ],
+            "defect": [
+                "{} with discolor defect, it appears as a localized discoloration, a patch of color that is either more intense, a different hue, or more concentrated than the standard specks found on the rest of the pill's surface",
+                "{} with contamination defect, it appears as small, dark, triangular indentation or poke that has physically damaged the surface",
+                "{} with crack defect, it appears as a chip or crack where a piece of the pill's surface has been broken off, edge of the break is jagged and irregular, exposing the white, chalky interior material of the pill",
+                "{} with faulty imprint defect, it appears as a faint, indistinct, and \"fluty\" appearance, suggesting an issue with the stamping or molding process, shallow and poorly defined imprint of the letters \"FF,\" which lack sharp, crisp edges",
+                "{} with pill type defect, it appears as several irregularly shaped, yellowish-orange splotches or stains, more saturated and larger than the other faint specks",
+                "{} with scratch defect, it appears as sharp, indentation or scratch that has been pressed into the pill's surface, appears as a clean-edged mark, some appears as rough, powdery, and discolored area"
+            ]
+        },
+        "map": "pill surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/pill/train/good/023.png",
+            "/data/datasets/pub/public/MVTec_AD/pill/train/good/028.png",
+            "/data/datasets/pub/public/MVTec_AD/pill/train/good/161.png",
+            "/data/datasets/pub/public/MVTec_AD/pill/train/good/053.png"
+        ]
+    },
+    "wood": {
+        "des": {
+            "good": [
+                "{} with a fine, smooth texture dominated by a prominent linear grain pattern",
+                "{} with grain consists of numerous dark, parallel, vertical streaks running along a warm, reddish-brown base",
+                "{} with consistent and fibrous appearance",
+                "{} without any discoloration",
+                "{} without any hole"
+            ],
+            "defect": [
+                "{} with color defect, it appears as discoloration areas",
+                "{} with hole defect, it appears as small, dark, circular holes",
+                "{} with liquid defect, it appears as visible, dark discoloration with an irregular shape",
+                "{} with scratch defect, it appears as linear abrasion on the surface"
+            ]
+        },
+        "map": "wood surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/wood/train/good/156.png",
+            "/data/datasets/pub/public/MVTec_AD/wood/train/good/057.png",
+            "/data/datasets/pub/public/MVTec_AD/wood/train/good/070.png",
+            "/data/datasets/pub/public/MVTec_AD/wood/train/good/066.png"
+        ]
+    },
+    "hazelnut": {
+        "des": {
+            "good": [
+                "{} with larger, reddish-brown portion is predominantly smooth and woody, with fine, darker striations running vertically along its curved surface, giving it a slightly fibrous appearance",
+                "{} with lighter-colored, circular area at the top has a contrasting rough, matte, and slightly porous texture, similar to cork or fine sandpaper"
+            ],
+            "defect": [
+                "{} with crack defect, it appears as significant physical breach in the shell, edges of this hole are jagged and splintered, the darker, rough, fibrous, and crumbly texture of the inner nut kernel is clearly visible",
+                "{} with cut defect, it appears as straight, linear incision, the cut has sharp edges and reveals a lighter, almost whitish color, a clean, physical cut rather than a natural crack",
+                "{} with hole defect, it appears as a small, perfectly round hole that has been drilled or bored into the shell, its edges are clean and precise, and its interior is dark",
+                "{} with print defect, it appears as a bright, white, shiny, wet-looking residue that creates a strong circular light reflection, indicating a foreign substance on the shell"
+            ]
+        },
+        "map": "hazelnut surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/hazelnut/train/good/151.png",
+            "/data/datasets/pub/public/MVTec_AD/hazelnut/train/good/010.png",
+            "/data/datasets/pub/public/MVTec_AD/hazelnut/train/good/353.png",
+            "/data/datasets/pub/public/MVTec_AD/hazelnut/train/good/244.png"
+        ]
+    },
+    "toothbrush": {
+        "des": {
+            "good": [
+                "{} with a smooth, white plastic base with neatly arranged, upright clusters of red, blue and white bristles"
+            ],
+            "defect": [
+                "{} with defect defect, it appears as a foreign metal object embedded in the bristles, long, thin, straight pin or staple pierces horizontally through the bristle bed",
+                "{} with defect defect, it appears as a cluster of splayed bristles, played bristles create a chaotic, messy edge compared to the other neat clusters"
+            ]
+        },
+        "map": "toothbrush surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/toothbrush/train/good/023.png",
+            "/data/datasets/pub/public/MVTec_AD/toothbrush/train/good/046.png",
+            "/data/datasets/pub/public/MVTec_AD/toothbrush/train/good/000.png",
+            "/data/datasets/pub/public/MVTec_AD/toothbrush/train/good/006.png"
+        ]
+    },
+    "grid": {
+        "des": {
+            "good": [
+                "{} with uniform, repeating pattern of interconnected, wavy metal strands that create a series of diamond-shaped openings",
+                "{} with smooth metal surface with a matte finish",
+                "{} with geometric and highly regular texture"
+            ],
+            "defect": [
+                "{} with bent defect, it appears as localized dents and breaks in the metal strands, a slight curve or a significant angle, affecting the mesh's uniformity, not straight, showing a deviation from their intended linear form",
+                "{} with broken defect, it appears as breaks or irregular tears along the wire's length, a irregular opening, a split in the otherwise continuous pattern, disrupting the uniformity of the structure",
+                "{} with glue defect, it appears as extra transparent blocks, a small, irregular gap or tear, where the otherwise uniform pattern is disrupted. The defect area has a slightly different texture and may appear as a minor break in the structure, which could indicate damage or a manufacturing imperfection",
+                "{} with metal_contamination defect, it appears as a crumpled or folded defect, creating a noticeable protrusion from the surface, a small piece of material jutting out from the plane of the mesh",
+                "{} with thread defect, it appears as additional irregular clump or cords are embedded in the mesh and intertwined with it"
+            ]
+        },
+        "map": "mesh or grid structure",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/grid/train/good/060.png",
+            "/data/datasets/pub/public/MVTec_AD/grid/train/good/031.png",
+            "/data/datasets/pub/public/MVTec_AD/grid/train/good/051.png",
+            "/data/datasets/pub/public/MVTec_AD/grid/train/good/107.png"
+        ]
+    },
+    "transistor": {
+        "des": {
+            "good": [
+                "{} with Transistor Body has black plastic casing has a smooth, matte finish",
+                "{} with Transistor Legs have three metal leads have a slightly rough, silvery, and somewhat lumpy texture",
+                "{} with background is a circuit board with parallel smooth, copper tracks that have a faint metallic sheen. This is punctuated by a grid of clean, circular holes"
+            ],
+            "defect": [
+                "{} with bent lead defect, it appears as sharp, angular bend of the transistor's lead, deviating significantly from its intended vertical orientation",
+                "{} with cut lead defect, it appears as damaged lead which has been cut short, leaving a flat, blunt end that contrasts with the longer, intact leads",
+                "{} with damaged case defect, it appears as physical damage on the black plastic body of the transistor, rough, whitish, and flaky damage",
+                "{} with misplaced defect, it appears as missing transistor, entire transistor is mounted upside down, with its body covering the holes and its leads pointing up instead of being inserted into the circuit board"
+            ]
+        },
+        "map": "transistor surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/transistor/train/good/178.png",
+            "/data/datasets/pub/public/MVTec_AD/transistor/train/good/164.png",
+            "/data/datasets/pub/public/MVTec_AD/transistor/train/good/146.png",
+            "/data/datasets/pub/public/MVTec_AD/transistor/train/good/101.png"
+        ]
+    },
+    "carpet": {
+        "des": {
+            "good": [
+                "{} with distinctly woven texture, featuring a prominent, regular grid-like pattern created by intersecting horizontal and vertical threads",
+                "{} with coarse texture, characteristic of a durable material like burlap or a flat-weave carpet",
+                "{} with thick threads and appear to be made of multiple fibers, giving the surface a slightly rough feel",
+                "{} with heathered brown or gray color, with a mix of lighter and darker fibers creating a multi-tonal, variegated appearance",
+                "{} with overall finish is matte, with no gloss or sheen"
+            ],
+            "defect": [
+                "{} with discolor defect, it appears as visible, uneven color patches, appear as spots, stains, or smudges, and typically stand out due to their contrasting color or intensity compared to the surrounding area, irregular edges",
+                "{} with cut defect, it appears as hole, break or tear in the fabric's weave, the threads around the tear appear slightly frayed or pulled apart, creating an irregularity",
+                "{} with hole defect, it appears as small, irregular gap in the woven texture with loose fibers, small irregular hole with fraying fibers around it",
+                "{} with metal contamination defect, it appears as small piece of silver-colored metal with a distinct, irregular shape, it has a slight sheen, indicating a reflective surface, and appears to be a solid, three-dimensional object, possibly a metal shaving or a broken fragment",
+                "{} with thread defect, it appears as a linear defect or a foreign thread, thin, elongated, linear object"
+            ]
+        },
+        "map": "carpet surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/carpet/train/good/235.png",
+            "/data/datasets/pub/public/MVTec_AD/carpet/train/good/176.png",
+            "/data/datasets/pub/public/MVTec_AD/carpet/train/good/086.png",
+            "/data/datasets/pub/public/MVTec_AD/carpet/train/good/157.png"
+        ]
+    },
+    "leather": {
+        "des": {
+            "good": [
+                "{} with a consistent and uniform grain texture with a natural, slightly pebbled appearance",
+                "{} with a dense, irregular network of shallow creases and grain lines",
+                "{} with surface a matte finish that appears soft and pliable",
+                "{} with brown leather with a fine, pebbled texture"
+            ],
+            "defect": [
+                "{} with color defect, it appears as a small, irregular light discoloration mark that contrasts with the surrounding uniform brown color, disrupting the consistent appearance of the leather texture",
+                "{} with cut defect, it appears as a small, sharp incision with a slight tear, revealing a lighter underlying layer and disrupting the uniform surface texture of the leather",
+                "{} with fold defect, it appears as a smooth or rippled line, a raised, elongated ridge on the leather surface, where the material appears slightly wrinkled or compressed, causing a noticeable deviation from the otherwise smooth and consistent texture",
+                "{} with glue defect, it appears as extra transparent blocks, lumps, streaks, or an uneven layer on the surface or edges, a round, glossy spot with a slightly raised surface, distinctly shinier and smoother than the surrounding matte leather texture, indicating the presence of excess adhesive material",
+                "{} with poke defect, it appears as small holes or punctures in the leather, a small, sharp indentation or puncture in the leather surface, creating a tiny hole with slight tearing around the edges, disrupting the uniform texture"
+            ]
+        },
+        "map": "leather surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/leather/train/good/107.png",
+            "/data/datasets/pub/public/MVTec_AD/leather/train/good/018.png",
+            "/data/datasets/pub/public/MVTec_AD/leather/train/good/161.png",
+            "/data/datasets/pub/public/MVTec_AD/leather/train/good/067.png"
+        ]
+    },
+    "cable": {
+        "des": {
+            "good": [
+                "{} with close-up cross-section of a three-core electrical cable, revealing blue, brown, and yellow insulated wires, each containing a bundle of copper strands, all housed within a white outer sheath",
+                "{} with cut surfaces of the three colored inner cores (blue, brown, and yellow) are smooth and matte",
+                "{} with inner wall of this sheath appears uneven and porous, with small visible dimples or bubbles",
+                "{} with a standard cable with the correct color layout: yellow on top, blue on the left, and grey on the right"
+            ],
+            "defect": [
+                "{} with bent wire defect, it appears as several thin, metallic copper strands that have been pulled out from their respective insulated cores, creating a messy, disordered appearance that spans across the cable's cross-section",
+                "{} with swap defect, it appears as a photo of a miswired cable with a duplicate color wire and a missing color wire",
+                "{} with cut inner insulation defect, it appears as deep cuts and large, chipped-away sections of the insulation on the core, are forms of severe mechanical damage to the wire insulation",
+                "{} with cut outer insulation defect, it appears as a clean, linear fracture in the whitish insulating material that surrounds the three coloured cores, a distinct, sharp-edged gap",
+                "{} with missing cable defect, it appears as large, perfectly circular, black void, indicates that a fundamental component of the cable is entirely missing from this section",
+                "{} with missing wire defect, it appears as a dark, hollow void, indicating a critical component is missing, complete absence of the copper conductor bundle",
+                "{} with poke insulation defect, it appears as rough, deformed, and appears melted or chewed, this area is pitted, uneven, and lacks a defined edge, indicating physical or thermal damage"
+            ]
+        },
+        "map": "cable surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/cable/train/good/054.png",
+            "/data/datasets/pub/public/MVTec_AD/cable/train/good/181.png",
+            "/data/datasets/pub/public/MVTec_AD/cable/train/good/084.png",
+            "/data/datasets/pub/public/MVTec_AD/cable/train/good/060.png"
+        ]
+    },
+    "screw": {
+        "des": {
+            "good": [
+                "{} with crew has a metallic texture with a slightly grainy, matte finish",
+                "{} with a grooved, and repeating helical pattern",
+                "{} with a smooth shank and a sharp point"
+            ],
+            "defect": [
+                "{} with manipulated front defect, it appears as physical deformation where the sharp, pointed tip of the screw is broken or missing, the end is blunt, flattened, and irregular",
+                "{} with scratch head defect, it appears as severe physical damage to the screw's head, outer rim of the head is also chipped and misshapen, with irregular, jagged edges, light gray with a mottled pattern, rough and uneven texture",
+                "{} with scratch neck defect, it appears as shallow, oblong depression, light gray with a mottled pattern with a rough texture",
+                "{} with thread side defect, it appears as broken and damaged section of the screw's thread, edges of the broken thread are sharp, fractured, and uneven, exposed surface of the break has a rough, coarse texture",
+                "{} with thread top defect, it appears as damaged and malformed section of the threads near the tip of the screw, disrupted thread, crushed, flattened, and irregular, losing its distinct spiral form, rough and uneven texture"
+            ]
+        },
+        "map": "screw surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/screw/train/good/302.png",
+            "/data/datasets/pub/public/MVTec_AD/screw/train/good/017.png",
+            "/data/datasets/pub/public/MVTec_AD/screw/train/good/297.png",
+            "/data/datasets/pub/public/MVTec_AD/screw/train/good/126.png"
+        ]
+    },
+    "capsule": {
+        "des": {
+            "good": [
+                "{} with a smooth and uniform, with a hard, seamless shell",
+                "{} with satin or semi-gloss finish, which gives it a slight sheen without being highly reflective", 
+                "{} with solid and non-porous, without any bumps, pits, scratches, or other surface irregularities",
+                "{} with consistent and opaque color, and the printed text 500 has sharp, well-defined edges"
+            ],
+            "defect": [
+                "{} with crack defect, it appears as crack that appears as a thin, dark line on the capsule's surface, a break in the integrity of the capsule's shell",
+                "{} with faulty imprint defect, it appears as white ink of the number 500 is smudged, incomplete, and distorted, edges of the numbers are blurry, and parts of the ink appear to have been scraped off, making the imprint unclear and messy",
+                "{} with poke defect, it appears as physical indentation or puncture in the capsule's shell, rough, slightly dark depression that has disrupted the smooth surface",
+                "{} with scratch defect, it appears as several fine, curved, linear scratches on the capsule's surface, thin, whitish lines that run in various directions, indicating surface-level abrasion",
+                "{} with squeeze defect, it appears as significant physical deformation where the normally rounded end of the capsule has been crushed or squeezed inwards, a flattened, irregular shape with a noticeable indentation and a small tear or lip in the material"
+            ]
+        },
+        "map": "capsule surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/capsule/train/good/132.png",
+            "/data/datasets/pub/public/MVTec_AD/capsule/train/good/077.png",
+            "/data/datasets/pub/public/MVTec_AD/capsule/train/good/167.png",
+            "/data/datasets/pub/public/MVTec_AD/capsule/train/good/085.png"
+        ]
+    },
+    "metal_nut": {
+        "des": {
+            "good": [
+                "{} with metal nut has a slightly coarse and grainy texture, particularly on the flat surfaces of its four prongs",
+                "{} with a mottled, semi-glossy metallic finish"
+            ],
+            "defect": [
+                "{} with bent defect, it appears as physical breaks where the tips of prongs have been chipped or snapped off, broken surfaces are sharp and irregular",
+                "{} with discolor defect, it appears as distinct color that is not part of the metal, surface discoloration defect, localized patch of foreign color",
+                "{} with blurred nut, it appears as blurred, lack of sharp focus across the entire metal nut, blurry and unclear",
+                "{} with scratch defect, it appears as several fine, parallel, diagonal lines that appear to be scratches or scuff marks, with darker color"
+            ]
+        },
+        "map": "metal nut surface",
+        "samples": [
+            "/data/datasets/pub/public/MVTec_AD/metal_nut/train/good/101.png",
+            "/data/datasets/pub/public/MVTec_AD/metal_nut/train/good/141.png",
+            "/data/datasets/pub/public/MVTec_AD/metal_nut/train/good/104.png",
+            "/data/datasets/pub/public/MVTec_AD/metal_nut/train/good/158.png"
+        ]
+    }
+}
