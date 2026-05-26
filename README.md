@@ -75,7 +75,9 @@ If you find our work is useful in your research or applications, please consider
   title={Advancing metallic surface defect detection via anomaly-guided pretraining on a large industrial dataset},
   author={Liu, Chuni and Li, Hongjie and Du, Jiaqi and Hou, Yangyang and Sun, Qian and Jin, Lei and Xu, Ke},
   journal={Pattern Recognition},
+  volume={179},
   pages={113788},
   year={2026},
-  publisher={Elsevier}
+  issn={0031-3203},
+  doi={10.1016/j.patcog.2026.113788}
 }
