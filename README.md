@@ -8,7 +8,7 @@ Pretrained models are commonly employed to improve finetuning performance in met
 ## Environments
 ```bash
 # Our code is based on mmyolo=0.6.0, mmpretrain=1.2.0, mmdet=3.3.0, mmseg=1.2.2.
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt 
 ```
 
 ### Anomaly Map Generation
